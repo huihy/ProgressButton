@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="white">#ffffff</color>
+
+    <color name="logout_button">#FFCC33</color>
+    <color name="logout_button_press">#ff73a3</color>
+    <color name="colorPrimaryg">#6a94e1</color>
+
+    <color name="login_button">#2196F3</color>
+    <color name="login_button_press">#1976D2</color>
+    <color name="login_button_successfully">#6a94e1</color>
+    <color name="login_button_successfully_press">#6a94e1</color>
+    <color name="login_button_erroe_press">#98b6ed</color>
+</resources>

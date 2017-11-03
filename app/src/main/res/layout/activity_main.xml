@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.progressbutton.MainActivity">
+
+
+    <com.circleprogressbutton.CircularProgressButton
+        android:id="@+id/loginbtn"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="16dp"
+        android:textColor="@color/white"
+        android:textSize="16dp"
+        app:cpb_cornerRadius="8dp"
+        app:cpb_iconComplete="@drawable/button_login_successfully_dialog"
+        app:cpb_iconError="@drawable/button_login_error_dialog"
+        app:cpb_selectorIdle="@drawable/button_login_idle_dialog"
+        app:cpb_textIdle="登录" />
+</android.support.constraint.ConstraintLayout>
