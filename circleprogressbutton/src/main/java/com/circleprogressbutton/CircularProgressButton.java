@@ -343,7 +343,7 @@ public class CircularProgressButton extends android.support.v7.widget.AppCompatB
     private void morphToProgress() {
         setWidth(getWidth());
         setText(mProgressText);
-
+        setClickable(false);
         MorphingAnimation animation = createProgressMorphing(mCornerRadius, getHeight(), getWidth(), getHeight());
 
         animation.setFromColor(getNormalColor(mIdleColorState));
@@ -450,7 +450,7 @@ public class CircularProgressButton extends android.support.v7.widget.AppCompatB
             setText(mIdleText);
             mMorphingInProgress = false;
             mState = State.IDLE;
-
+            CircularProgressButton.this.setClickable(true);
             mStateManager.checkState(CircularProgressButton.this);
         }
     };
@@ -514,7 +514,7 @@ public class CircularProgressButton extends android.support.v7.widget.AppCompatB
                 setText(mIdleText);
                 mMorphingInProgress = false;
                 mState = State.IDLE;
-
+                CircularProgressButton.this.setClickable(true);
                 mStateManager.checkState(CircularProgressButton.this);
             }
         });

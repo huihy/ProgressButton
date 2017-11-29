@@ -17,8 +17,8 @@
         android:textColor="@color/white"
         android:textSize="16dp"
         app:cpb_cornerRadius="8dp"
-        app:cpb_iconComplete="@drawable/button_login_successfully_dialog"
-        app:cpb_iconError="@drawable/button_login_error_dialog"
+        app:cpb_selectorComplete="@drawable/button_login_successfully_dialog"
+        app:cpb_selectorError="@drawable/button_login_error_dialog"
         app:cpb_selectorIdle="@drawable/button_login_idle_dialog"
         app:cpb_textIdle="登录" />
 </android.support.constraint.ConstraintLayout>
