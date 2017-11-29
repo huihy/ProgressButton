@@ -6,4 +6,5 @@
 
 
 compile 'com.github.hyhjade:ProgressButton:1.0.1' // --限制只能在平常状态才能点击
+
 compile 'com.github.hyhjade:ProgressButton:1.0.0' // --对点击没有做限制
