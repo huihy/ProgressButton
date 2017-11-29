@@ -5,4 +5,5 @@
 地址是：https://github.com/dmytrodanylyk/circular-progress-button
 
 
-compile 'com.github.hyhjade:ProgressButton:1.0.1' //当前的引用方式
+compile 'com.github.hyhjade:ProgressButton:1.0.1' // --限制只能在平常状态才能点击
+compile 'com.github.hyhjade:ProgressButton:1.0.0' // --对点击没有做限制
